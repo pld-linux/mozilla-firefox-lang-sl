@@ -1,5 +1,5 @@
 
-%define         _lang		sl
+%define		_lang		sl
 
 Summary:	Slovene resources for Mozilla-firefox
 Summary(pl):	S³oweñskie pliki jêzykowe dla Mozilli-firefox
