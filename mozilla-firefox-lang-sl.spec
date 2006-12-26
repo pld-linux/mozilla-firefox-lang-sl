@@ -4,16 +4,14 @@
 Summary:	Slovene resources for Mozilla-firefox
 Summary(pl):	S³oweñskie pliki jêzykowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	1.5.0.8
+Version:	2.0.0.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	debc7ba89146352c1f90ae01034b95d3
+# Source0-md5:	342163fb91b0526579b2e2d988f2ff3e
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
-Requires(post,postun):	mozilla-firefox >= %{version}
-Requires(post,postun):	textutils
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
