@@ -2,7 +2,7 @@
 %define		_lang		sl
 
 Summary:	Slovene resources for Mozilla-firefox
-Summary(pl):	S³oweñskie pliki jêzykowe dla Mozilli-firefox
+Summary(pl.UTF-8):   SÅ‚oweÅ„skie pliki jÄ™zykowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
 Version:	2.0.0.1
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Slovene resources for Mozilla-firefox.
 
-%description -l pl
-S³oweñskie pliki jêzykowe dla Mozilli-firefox.
+%description -l pl.UTF-8
+SÅ‚oweÅ„skie pliki jÄ™zykowe dla Mozilli-firefox.
 
 %prep
 
