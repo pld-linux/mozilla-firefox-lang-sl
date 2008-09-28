@@ -2,12 +2,12 @@
 Summary:	Slovene resources for Mozilla-firefox
 Summary(pl.UTF-8):	Słoweńskie pliki językowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	2.0.0.14
+Version:	2.0.0.17
 Release:	1
 License:	GPL
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	b51420798a2be039f60df7349bf437aa
+# Source0-md5:	c738f93d88ac6f864b39f83a96dd521f
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
