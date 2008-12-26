@@ -1,13 +1,13 @@
 %define		_lang		sl
-Summary:	Slovene resources for Mozilla-firefox
-Summary(pl.UTF-8):	Słoweńskie pliki językowe dla Mozilli-firefox
+Summary:	Slovene resources for Firefox
+Summary(pl.UTF-8):	Słoweńskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	e2830300015d77db538ef9f569c7c08b
+# Source0-md5:	637cb959e9cbac5621cd5bcf1217b402
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Slovene resources for Mozilla-firefox.
+Slovene resources for Firefox.
 
 %description -l pl.UTF-8
-Słoweńskie pliki językowe dla Mozilli-firefox.
+Słoweńskie pliki językowe dla Firefoksa.
 
 %prep
 
